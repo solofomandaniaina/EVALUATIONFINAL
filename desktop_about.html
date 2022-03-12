@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="css/font.css"> 
+  <link rel="stylesheet" href="css/style.css"> 
+  <link rel="stylesheet" href="css/interaction.css">  
+  <link rel="stylesheet" href="css/mobile.css"> 
+   <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+<body>
+
+<header>
+
+<!-- NavBar -->
+  <nav class="navbar navbar-expand-md bg-danger navbar-dark">  
+    <a class="navbar-brand text-white" href="desktop_index.html" ><img src="Images/group-2.svg" width="80px">
+        [Events]</a>
+    <button class="navbar-toggler white" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="desktop_search.html" style="font-size:15px" id="menu-search" ><img src="Icones/search_icon.png" width="15px" style="margin-right:10px"><span class="lien">Search</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="desktop_about.html" style="font-size:15px" id="menu-about"><img src="Icones/about_icon.png" width="15px" style="margin-right:10px"><span class="lien">About</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#" style="font-size:15px" id="menu-blog"><img src="Icones/blog_icon.png" width="15px" style="margin-right:10px"><span class="lien">Blog</span></a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link text-white" href="#" style="font-size:15px" id="menu-more"><img src="Icones/more_icon.png" width="15px" style="margin-right:10px"><span class="lien">More</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav> 
+</header>
+
+<!-- Section 1 de la page, Location et information -->
+<section style="padding:20px">
+  <div class="containr text-center border contain-card box-shadow" style="padding:60px">
+  <h2 class="text-danger jiza2"><img src="Icones/day_icon_red.png"> A SUNNY BEACH DAY</h2>
+  <div class="row cases">
+      <div class="col-sm-6 text-center">
+        <div class="card card-shadow">
+          <div class="card-body">Location : <span class="value jiza2 text-primary">Current City</span></div>
+        </div> 
+      </div>
+      <div class="col-sm-6 text-center">
+        <div class="card card-shadow">
+          <div class="card-body">Host : <span class="value jiza2 text-primary">Hosts-Name</span></div>
+        </div> 
+      </div>
+    </div> 
+    <br> 
+    <div class="row cases">
+      <div class="col-sm-6 text-center">
+        <div class="card card-shadow">
+          <div class="card-body">Subject : <span class="value jiza2 text-primary">Beach Time</span></div>
+        </div> 
+      </div>
+      <div class="col-sm-6 text-center">
+        <div class="card card-shadow">
+          <div class="card-body">Date : <span class="value jiza2 text-primary">21/06/2020</span></div>
+        </div> 
+      </div>
+    </div> 
+    <br>  
+    <div class="row cases">
+      <div class="col-sm-6 text-center">
+        <div class="card card-shadow">
+          <div class="card-body">Initial Date : <span class="value jiza2 text-primary">21/06/2020</span></div>
+        </div> 
+      </div>
+      <div class="col-sm-6 text-center">
+        <div class="card card-shadow">
+          <div class="card-body">Final Date : <span class="value jiza2 text-primary">21/06/2020</span></div>
+        </div> 
+      </div>
+    </div>  
+    <br> 
+    <div class="row cases">
+      <div class="col-sm-6 text-center">
+        <div class="card card-shadow">
+          <div class="card-body">Subject : <span class="value jiza2 text-primary">Beach Time</span></div>
+        </div> 
+      </div>
+      <div class="col-sm-6 text-center">
+        <div class="card card-shadow">
+          <div class="card-body">Daytime : <span class="value jiza2 text-primary">DayLight</span></div>
+        </div> 
+      </div>
+    </div> 
+    <br>  
+    <button id="bt-apply" class="bg-primary text-white jiza2 border-0"><img src="Icones/apply_icon.png" width="20px"> APPLY</button>  
+    <br><br><br>
+      <div class="container">
+        <div class="row">
+        </div>
+        <div class="row">
+          <div class="col-sm-2"><img src="Icones/tel_icon.png" width="15px"><span>Tel:XXXX-XXXX</span></div>
+          <div class="col-sm-2"><img src="Icones/bring_icon.png" width="15px"><span>Bring +1</span></div>
+          <div class="col-sm-2"><img src="Icones/day_icon_blue.png" width="15px"><span>Day</span></div>
+          <div class="col-sm-2"><img src="Icones/hostverified_icon.png" width="15px"><span>Host Verified</span></div>
+          <div class="col-sm-2"><img src="Icones/yourway_icon.png" width="15px"><span>Your Way</span></div>
+          <div class="col-sm-2"><img src="Icones/notrequired_icon.png" width="15px"><span>Not Required</span></div>
+        </div>
+    </div>
+  </div>
+
+
+<!-- Section 2 de la page, map -->
+
+<!-- Cette code nécessite de KEY de l'API de google map, il suffit de remplacer Y0UR_KEY ci-dessous -->
+
+  <div class="case-view">
+    <h3 class="jiza1 spaced-letter"><img src="Icones/clickview_icon.png" width="35px"> CLICK TO VIEW MORE DETAILS</h3>
+  </div>
+
+  <div class="container text-center">
+    <h4 class="jiza text-danger" ><img src="Icones/map_icon.png" width="30px">MAP DIRECTIONS</h4>
+  </div>
+
+  <div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+<!-- remplacer YOUR_KEY par votre key de l'API google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+
+<section>
+
+
+
+<!-- Pieds de la page -->
+<footer class="text-center" style="background:black">
+
+<!-- Nav de footer -->
+  <nav>
+     <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="foot-nav-link nav-link border border-left-0 border-right-0 lien" href="desktop_index.html">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="foot-nav-link nav-link border border-left-0 border-right-0 lien" href="desktop_search.html">SEARCH</a>
+      </li>
+      <li class="nav-item">
+        <a class="foot-nav-link nav-link border border-left-0 border-right-0 lien" href="desktop_about.html">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="foot-nav-link nav-link border border-left-0 border-right-0 lien" href="desktop_index.html">ADVERTISE</a>
+      </li>
+      <li class="nav-item">
+        <p class=" border rounded-circle" id="maps-img">
+          <img src="Icones/mapsnavbar_icon.png" width="40px" alt="maps" >
+        </p>        
+      </li>
+      <li class="nav-item">
+        <a class="foot-nav-link nav-link border border-left-0 border-right-0 lien" href="desktop_index.html">FACEBOOK</a>
+      </li>
+      <li class="nav-item">
+        <a class="foot-nav-link nav-link border border-left-0 border-right-0 lien" href="desktop_index.html">TWITTER</a>
+      </li>
+      <li class="nav-item">
+        <a class="foot-nav-link nav-link border border-left-0 border-right-0 lien" href="desktop_index.html">INSTAGRAM</a>
+      </li>
+      <li class="nav-item">
+        <a class="foot-nav-link nav-link border border-left-0 border-right-0 lien" href="desktop_index.html">BLOG</a>
+      </li>
+    </ul> 
+  </nav>
+  
+  <!-- Information de la page -->
+    <div class="row">
+      <div class="col-sm-4 text-center text-white">
+        <h5 class="jiza2">Subscribe</h5>
+        <form class="form-inline justify-content-center">
+            <input type="mail" class="form-control-sm border  border-secondary text-white" style="width:40%;background-color:black" placeholder="Insert your e-mail here">
+            <button type="submit" class="btn  btn-primary bg-secondary border-0 jiza2">send</button>
+         </form>   
+      </div>
+      <div class="col-sm-4 text-center text-white">
+        <h5 class="jiza2">Contact</h5>
+        <p style="font-size:12px">Have a question or suggestion?</p>
+        <p class="text-danger souligne">contact@events.com</p>
+      </div>
+      <div class="col-sm-4 text-center text-white">
+        <h5 class="jiza2">About</h5>
+        <p style="font-size:12px">[Events] is an online platform that works to improve and increase sociale life conections, when this nightmare that we are curently living in is over <span class="text-danger"><a class="souligne" href="desktop_about.html">learn more</a></span></p>
+        </div>
+      </div>    
+      </footer>
+      <div id="foot" style="background-color:#1f1f1f">
+        <img class="site-icon" src="Icones/facebook_icon.png" width="15px" id="fb">
+        <img class="site-icon" src="Icones/twitter_icon.png" width="15px" id="tw">
+        <img class="site-icon" src="Icones/instagram_icon.png" width="15px" id="in">
+        <img class="site-icon" src="Icones/tumblr_icon.png" width="15px" id="tb">
+        <img class="site-icon" src="Icones/linkedin_icon.png" width="15px" id="lk">
+      </div>     
+    </footer>
+</body>
+</html>

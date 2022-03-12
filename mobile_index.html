@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="css/font.css"> 
+  <link rel="stylesheet" href="css/style.css"> 
+  <link rel="stylesheet" href="css/mobile.css"> 
+   <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+<body>
+
+<header>
+
+<div class="text-center bg-danger">
+  <a class="navbar-brand text-white" href="mobile_index.html" ><img src="Images/group-2.svg" width="80px">
+        [Events]</a>
+</div>
+<!-- NavBar -->
+  <nav class="navbar navbar-expand-md bg-danger navbar-dark">  
+    <div class="nav navbar-collapse justify-content-center" id="collapsibleNavbar">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="mobile_search.html" style="font-size:15px"><img src="Icones/search_icon.png" width="15px" style="margin-right:10px"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="mobile_about.html" style="font-size:15px"><img src="Icones/about_icon.png" width="15px" style="margin-right:10px"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#" style="font-size:15px"><img src="Icones/blog_icon.png" width="15px" style="margin-right:10px"></a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link text-white" href="#" style="font-size:15px"><img src="Icones/more_icon.png" width="15px" style="margin-right:10px"></a>
+        </li>
+      </ul>
+    </div>
+  </nav> 
+</header>
+
+<!-- Section 1 de la page -->
+<section >
+<div id="background">
+  <h4 id="titre" class="mb-3 jiza2 text-white"><b>[EVENTS]... YOUR GATEWAY TO CONNECT WITH EVENTS AROUND YOUR AREA</b></h4>
+  <div id="mask-s" class="mask rounded" style="background-color:rgba(255,255,255,0.7)">
+    <p style="color:black;font-size:14px">SEARCH EVENTS NEARBY</p>
+    <form class="form-group justify-content-center">
+      <input type="search" class="form-control-sm border  border-dark search" style="width:100%">
+      <button type="submit" class="btn btn-sm btn-danger " style="width:100%"><a href="mobile_search.html" class="text-white">Search</a></button>
+     </form>             
+    </div>
+    <div class="container text-center">
+      <button id="btn-how" type="submit" class="btn btn-sm text-center"><b>How It Works</b></button>
+    </div>
+</div>
+<section>
+
+
+<!-- Section 2 de la page -->
+<section>
+ <div class="cntainer bg-dark text-center group">
+   <div class="container text-white group4-container text-left" style="padding:30px">
+     <p style="padding:00px">You can create [Events] events around your area and share them
+with people you know and with whoever wants to connect</p>
+<p class="jiza2">{Events] connecting you</p>
+   <a href="#" class="text-white">Learn more about [Events]</a>
+   </div>
+
+ </div>
+ <div class="cntainer bg-danger text-center group">
+   <div class="container text-white group2-container text-left" style="padding:30px">
+     <p style="padding:00px">Every month a new you might find [Events] near you and enjoy the
+company with people whom you can share mutual interests</p>
+<p class="jiza2">{Events] near you</p>
+   <a href="#" class="text-danger">Find a [Events]</a>
+   </div>
+
+ </div>
+ <div class="cntainer bg-info text-center group">
+   <div class="container text-white group3-container text-left" style="padding:30px">
+     <p style="padding:00px">You can create [Events] events around your area and share them
+with people you know and with whoever wants to connect</p>
+<p class="jiza2">{Events] connecting you</p>
+   </div>
+
+ </div>
+</section>
+
+
+
+<!-- Pieds de la page -->
+<footer class="text-center" style="background-color:rgba(0,0,0,0.9)"> 
+      <div class="text-left">
+        <img class="site-icon" src="Icones/facebook_icon.png" width="15px">
+        <img class="site-icon" src="Icones/twitter_icon.png" width="15px">
+        <img class="site-icon" src="Icones/instagram_icon.png" width="15px">
+        <img class="site-icon" src="Icones/tumblr_icon.png" width="15px">
+        <img class="site-icon" src="Icones/linkedin_icon.png" width="15px">
+      </div>     
+    </footer>
+</body>
+</html>
+

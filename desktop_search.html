@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="css/font.css"> 
+  <link rel="stylesheet" href="css/style.css"> 
+  <link rel="stylesheet" href="css/interaction.css">  
+  <link rel="stylesheet" href="css/mobile.css"> 
+   <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+<body>
+
+<header>
+
+<!-- NavBar -->
+  <nav class="navbar navbar-expand-md bg-danger navbar-dark">  
+    <a class="navbar-brand text-white" href="desktop_index.html" ><img src="Images/group-2.svg" width="80px">
+        [Events]</a>
+    <button class="navbar-toggler white" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="desktop_search.html" style="font-size:15px" id="menu-search" ><img src="Icones/search_icon.png" width="15px" style="margin-right:10px"><span class="lien">Search</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="desktop_about.html" style="font-size:15px" id="menu-about"><img src="Icones/about_icon.png" width="15px" style="margin-right:10px"><span class="lien">About</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#" style="font-size:15px" id="menu-blog"><img src="Icones/blog_icon.png" width="15px" style="margin-right:10px"><span class="lien">Blog</span></a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link text-white" href="#" style="font-size:15px" id="menu-more"><img src="Icones/more_icon.png" width="15px" style="margin-right:10px"><span class="lien">More</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav> 
+</header>
+
+<!-- Section 1 de la page -->
+<section style="padding:20px">
+<div style="background-color:rgba(200,200,200,0.1);overflow:auto">
+  <div class="container" >
+  <h4 class=" text-center jiza2" style="color:rgba(0,0,0,0.4)">Filter by location,host,subject,date,daytime :</h4>     
+   <form action="/action_page.php">
+  <table class="text-left">
+    <thead>
+      <tr>
+        <th class="border-0 text-left">Location</th>
+        <th class="border-0 text-left">Host</th>
+        <th class="border-0 text-left">Subject</th>
+        <th class="border-0 text-left">Initiale Date</th>
+        <th class="border-0 text-left">Final Date</th>
+        <th class="border-0 text-left">Daytime</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="border-0 text-left"><input class="form-control-sm" type="text" /></td>
+        <td class="border-0 text-left"><input class="form-control-sm" type="text" /></td>
+        <td class="border-0 text-left"><input class="form-control-sm" type="text" /></td>
+        <td class="border-0 text-left"><input class="form-control-sm" type="date" /></td>
+        <td class="border-0 text-left"><input class="form-control-sm" type="date" /></td>
+        <td class="border-0 text-left"><input class="form-control-sm" type="text" /></td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <div class="container text-center">
+    <button class="btn btn-primary sm text-white">Search</button>
+    <button class="btn btn-warning sm text-white">Clear filter</button>
+  </div>
+  <br>
+</form> 
+</div>
+</div>
+<section>
+<br>
+
+<!-- Section 2 de la page, Information -->
+<section>
+  <div class="container text-center">
+    <h5  style="color:rgba(0,0,0,0.4)">Search Result Found 7 [Events] Nearby</h5>
+    <div class="row">
+  <div class="col-sm-4">
+    <div class="search-result bg-danger search-result">
+      <h5 class="jiza2 text-white">go to [gathering] example</h5>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="search-result bg-danger search-result">
+      <h5 class="jiza2 text-white">go to [gathering] example</h5>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="search-result bg-danger search-result">
+      <h5 class="jiza2 text-white">go to [gathering] example</h5>
+    </div>
+  </div>
+  </div>
+</section>
+<br>
+
+
+
+<!-- Pieds de la page -->
+<footer class="text-center" style="background:black">
+
+<!-- Nav de footer -->
+  <nav>
+     <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="foot-nav-link nav-link border border-left-0 border-right-0 lien" href="desktop_index.html">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="foot-nav-link nav-link border border-left-0 border-right-0 lien" href="desktop_search.html">SEARCH</a>
+      </li>
+      <li class="nav-item">
+        <a class="foot-nav-link nav-link border border-left-0 border-right-0 lien" href="desktop_about.html">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="foot-nav-link nav-link border border-left-0 border-right-0 lien" href="desktop_index.html">ADVERTISE</a>
+      </li>
+      <li class="nav-item">
+        <p class=" border rounded-circle" id="maps-img">
+          <img src="Icones/mapsnavbar_icon.png" width="40px" alt="maps" >
+        </p>        
+      </li>
+      <li class="nav-item">
+        <a class="foot-nav-link nav-link border border-left-0 border-right-0 lien" href="desktop_index.html">FACEBOOK</a>
+      </li>
+      <li class="nav-item">
+        <a class="foot-nav-link nav-link border border-left-0 border-right-0 lien" href="desktop_index.html">TWITTER</a>
+      </li>
+      <li class="nav-item">
+        <a class="foot-nav-link nav-link border border-left-0 border-right-0 lien" href="desktop_index.html">INSTAGRAM</a>
+      </li>
+      <li class="nav-item">
+        <a class="foot-nav-link nav-link border border-left-0 border-right-0 lien" href="desktop_index.html">BLOG</a>
+      </li>
+    </ul> 
+  </nav>
+  
+  <!-- Information de la page -->
+    <div class="row">
+      <div class="col-sm-4 text-center text-white">
+        <h5 class="jiza2">Subscribe</h5>
+        <form class="form-inline justify-content-center">
+            <input type="mail" class="form-control-sm border  border-secondary text-white" style="width:40%;background-color:black" placeholder="Insert your e-mail here">
+            <button type="submit" class="btn  btn-primary bg-secondary border-0 jiza2">send</button>
+         </form>   
+      </div>
+      <div class="col-sm-4 text-center text-white">
+        <h5 class="jiza2">Contact</h5>
+        <p style="font-size:12px">Have a question or suggestion?</p>
+        <p class="text-danger souligne">contact@events.com</p>
+      </div>
+      <div class="col-sm-4 text-center text-white">
+        <h5 class="jiza2">About</h5>
+        <p style="font-size:12px">[Events] is an online platform that works to improve and increase sociale life conections, when this nightmare that we are curently living in is over <span class="text-danger"><a class="souligne" href="desktop_about.html">learn more</a></span></p>
+        </div>
+      </div>    
+      </footer>
+      <div id="foot" style="background-color:#1f1f1f">
+        <img class="site-icon" src="Icones/facebook_icon.png" width="15px" id="fb">
+        <img class="site-icon" src="Icones/twitter_icon.png" width="15px" id="tw">
+        <img class="site-icon" src="Icones/instagram_icon.png" width="15px" id="in">
+        <img class="site-icon" src="Icones/tumblr_icon.png" width="15px" id="tb">
+        <img class="site-icon" src="Icones/linkedin_icon.png" width="15px" id="lk">
+      </div>     
+    </footer>
+</body>
+</html>

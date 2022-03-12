@@ -1,0 +1,172 @@
+body {
+	font-family: "jiza1";
+}
+
+#background {
+	background-size: 100%;
+	background-image: url("group-1.jpg");
+	background-position: center;
+	padding: 80px;
+	background-repeat: no-repeat;
+}
+
+#mask-s {
+	padding: 20px;
+	text-align: center;
+}
+
+#btn-how {
+	margin-top: 20px;
+	background-color: rgba(255,255,255,0.7);
+}
+
+#titre {
+	text-shadow: black 0 3px;
+}
+
+.option {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.sugg {
+	padding: 45px;
+}
+
+.sugg-text {
+	margin-top: 45px;
+	margin-bottom: 40px;
+}
+
+.sugg-bt {
+	background-color: white;
+	padding: 10px;
+}
+
+.foot-nav-link {
+	font-size: 14px;
+
+}
+
+#maps-img {
+	padding: 22px;
+	position: relative;
+	top: -22px;
+}
+
+.mail-form {
+
+}
+
+#foot {
+	padding-top: 8px;
+	padding-bottom: 20px;
+	padding-left: 60px;
+}
+
+.site-icon {
+	margin-right: 30px;
+}
+
+.cases{
+	font-size: 22px;
+
+};
+
+.case{
+	margin: 300px;
+}
+
+#bt-apply {
+	float: right;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.case-view {
+	padding: 30px;
+	background-color: rgba(200,200,200,0.1);
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.map-container-2{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-2 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.label-form {
+	font-size: 14px;
+}
+
+.search-result {
+	background-size: 80%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('../Images/group-2.svg');
+	margin: 20px;
+	height: 200px;
+}
+
+.group {
+	padding: 2%;
+}
+
+.spaced-letter {
+	letter-spacing: 15px;
+}
+
+.group4-container {
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('../Images/group-4.jpg');
+	border-radius: 20px 20px 20px 20px;
+}
+
+.group2-container {
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('../Images/group-2.jpg');
+	border-radius: 20px 20px 20px 20px;
+}
+
+.group3-container {
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('../Images/group-3.jpg');
+	border-radius: 20px 20px 20px 20px;
+}
+
+.box-shadow {
+	box-shadow: -1px -1px 12px #888888;
+}
+
+.card-shadow {
+	box-shadow: -1px -1px 6px #888888;
+}
+
+.card-m {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 25px;
+}
+
+#menu-search :hovers{
+	content: url("../Images/search_icon2");
+}
+
+th input,td input {
+	width: 80%;
+}

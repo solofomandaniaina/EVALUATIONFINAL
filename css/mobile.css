@@ -1,0 +1,10 @@
+@media screen and (max-width: 625px){
+  #background {
+	background-size: inherit;
+	background-image: url("group-1.jpg");
+	background-position: center;
+	padding: 80px;
+	background-repeat: no-repeat;
+	}
+
+}
